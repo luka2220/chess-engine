@@ -19,9 +19,6 @@ function love.draw()
     local tileWidth = love.graphics.getWidth() / 8
     local tileHeight = love.graphics.getHeight() / 8
 
-    local game_state = require("game_state")
-    print(game_state.P1_BISHOP_1) -- Example usage of game_state
-
     -- Draw the board 8x8
     for i = 0, 7 do
         for j = 0, 7 do
